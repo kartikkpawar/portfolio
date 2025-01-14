@@ -91,7 +91,7 @@ export const DATA = {
       badges: ["Intern"],
       href: "https://shopify.com",
       location: "Remote",
-      title: "Software Engineer",
+      title: "Frontend Engineer",
       logoUrl:
         "https://media.licdn.com/dms/image/v2/C4D0BAQFIJD1b95XKXQ/company-logo_200_200/company-logo_200_200/0/1630514748445?e=1744848000&v=beta&t=f4DbXI9FgWWy55qhbKWxbU1K0Da0XFY97r23hWAs64s",
       start: "Jul 2022",
@@ -104,7 +104,7 @@ export const DATA = {
       href: "https://kalpas.in/",
       badges: ["Intern"],
       location: "Hubballi Karnataka, IN",
-      title: "Software Engineer",
+      title: "React Developer",
       logoUrl:
         "https://media.licdn.com/dms/image/v2/C560BAQE7aq5Qqbu3TA/company-logo_200_200/company-logo_200_200/0/1630670818249/kalpas_innovations_logo?e=1744848000&v=beta&t=9hpA_5jqqZduIXfmI7OcZSiaRydV_l6TDUkCmkOuJa4",
       start: "May 2021",

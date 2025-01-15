@@ -56,8 +56,8 @@ export const ResumeCard = ({
           </Avatar>
         </div>
         <div className="flex-grow ml-4 items-center flex-col group">
-          <CardHeader>
-            <div className="flex items-center justify-between gap-x-2 text-base">
+          <CardHeader className="flex justify-center h-full">
+            <div className="flex items-center justify-between gap-x-2 text-base h-full">
               <h3 className="inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm">
                 {title}
                 {badges && (

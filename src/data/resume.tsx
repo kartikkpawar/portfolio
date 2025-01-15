@@ -79,8 +79,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Software Engineer",
-      logoUrl:
-        "https://media.licdn.com/dms/image/v2/C4E0BAQHplJhVhtzPcg/company-logo_200_200/company-logo_200_200/0/1630574709461/azympto_logo?e=1744848000&v=beta&t=cHgJDgX7ZW5bEZDv8dmASgM5hvgJZts6OFVw9EfBUgM",
+      logoUrl: "/azympto_logo.jpeg",
       start: "Jan 2023",
       end: "Present",
       description:
@@ -92,8 +91,7 @@ export const DATA = {
       href: "https://shopify.com",
       location: "Remote",
       title: "Frontend Engineer",
-      logoUrl:
-        "https://media.licdn.com/dms/image/v2/C4D0BAQFIJD1b95XKXQ/company-logo_200_200/company-logo_200_200/0/1630514748445?e=1744848000&v=beta&t=f4DbXI9FgWWy55qhbKWxbU1K0Da0XFY97r23hWAs64s",
+      logoUrl: "/tailnode_logo.jpeg",
       start: "Jul 2022",
       end: "Aug 2022",
       description:
@@ -105,8 +103,7 @@ export const DATA = {
       badges: ["Intern"],
       location: "Hubballi Karnataka, IN",
       title: "React Developer",
-      logoUrl:
-        "https://media.licdn.com/dms/image/v2/C560BAQE7aq5Qqbu3TA/company-logo_200_200/company-logo_200_200/0/1630670818249/kalpas_innovations_logo?e=1744848000&v=beta&t=9hpA_5jqqZduIXfmI7OcZSiaRydV_l6TDUkCmkOuJa4",
+      logoUrl: "/kalpas_innovations_logo.jpeg",
       start: "May 2021",
       end: "Jul 2021",
       description:
@@ -118,12 +115,20 @@ export const DATA = {
       badges: ["Intern"],
       location: " New Delhi, IN",
       title: "Web Developer",
-      logoUrl:
-        "https://media.licdn.com/dms/image/v2/C560BAQHEuIKwWiJ74g/company-logo_200_200/company-logo_200_200/0/1631345825238?e=1744848000&v=beta&t=z-W0_BA2QOiMd1Al88pbLeAM5Tsx7kEsBIttVfr-r2A",
+      logoUrl: "/team-4-progress.jpeg",
       start: "Oct 2020",
       end: "Dec 2020",
       description:
         "Worked in the Internal Product Development team, creating browser extensions to make internal tasks easier. Integrated APIs into the extensions to add more features and improve functionality",
+    },
+  ],
+  certification: [
+    {
+      title: "AWS Certified Cloud Practitioner",
+      href: "https://www.credly.com/badges/56c055a4-8704-4802-ba4f-909a23252ff6/public_url",
+      logoUrl: "/aws-ccp-certification.png",
+      start: "Aug 2024",
+      end: "Aug 2027",
     },
   ],
   // education: [

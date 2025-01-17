@@ -11,7 +11,7 @@ export default function NpmCommand() {
   return (
     <div
       className={cn(
-        "border hover:border-white/50 rounded-lg w-max px-4 py-2 cursor-pointer flex justify-between items-center gap-2 group"
+        "border dark:hover:border-white/50 border-black/20 hover:border-black/50 dark:border-white/20 rounded-lg w-max px-4 py-2 cursor-pointer flex justify-between items-center gap-2 group"
         // textCopied && "border-white hover:border-white"
       )}
       onClick={() => {
@@ -34,7 +34,7 @@ export default function NpmCommand() {
       )}
       <span
         className={cn(
-          "font-light text-sm text-white/50 group-hover:text-white"
+          "font-light text-sm dark:text-white/50 text-black/60 dark:group-hover:text-white group-hover:text-black"
           // textCopied && "text-white"
         )}
       >

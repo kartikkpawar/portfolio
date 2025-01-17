@@ -13,6 +13,7 @@ export const DATA = {
   summary:
     "Graduated in 2022 and started my journey as a Software Engineer after completing 3 internships. In 2023, I transitioned into full-time work, focusing on crafting scalable web applications while building fun side projects along the way",
   // avatarUrl: "/me.png",
+  npmCommand: "npx kartikpawar",
   skills: [
     "React.js",
     "Next.js",

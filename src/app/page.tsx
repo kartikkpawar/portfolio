@@ -1,10 +1,10 @@
 import { Icons } from "@/components/icons";
 import BlurFade from "@/components/magicui/blur-fade";
 import BlurFadeText from "@/components/magicui/blur-fade-text";
+import NpmCommand from "@/components/npm-command";
 import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Badge } from "@/components/ui/badge";
-import { UpcomingProjectCard } from "@/components/upcoming-project-card";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
@@ -38,6 +38,11 @@ export default function Page() {
             </BlurFade> */}
           </div>
         </div>
+      </section>
+      <section id="command">
+        <BlurFade delay={BLUR_FADE_DELAY * 3}>
+          <NpmCommand />
+        </BlurFade>
       </section>
       <section id="about">
         <BlurFade delay={BLUR_FADE_DELAY * 3}>

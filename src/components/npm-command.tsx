@@ -22,15 +22,12 @@ export default function NpmCommand() {
       {textCopied ? (
         <BlurFade delay={0.04} yOffset={0}>
           <Check
-            className="text-green-500 group-hover:-translate-y-1 ease-in-out duration-200"
+            className="text-green-500 ease-in-out duration-200"
             size={15}
           />
         </BlurFade>
       ) : (
-        <SquareTerminal
-          size={15}
-          className="group-hover:-translate-y-1 ease-in-out duration-200"
-        />
+        <SquareTerminal size={15} className="ease-in-out duration-200" />
       )}
       <span
         className={cn(

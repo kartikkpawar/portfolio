@@ -13,6 +13,16 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  async redirects() {
+    return [
+      {
+        source: "/resume",
+        destination:
+          "https://drive.google.com/file/d/1elzbunB8PFI6MV5zUJWXba1sV3_Hrd1G/view?usp=drive_link",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 export default nextConfig;

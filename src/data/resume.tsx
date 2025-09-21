@@ -144,6 +144,29 @@ export const DATA = {
   // ],
   projects: [
     {
+      title: "Nimbus",
+      href: "https://nimbus.kartikpawar.dev/",
+      dates: "",
+      active: true,
+      description:
+        "Interactive keycap textures + custom layouts + smooth GSAP animations = satisfying bounces that feel alive",
+      technologies: ["Next.js", "TailwindCSS", "GSAP", "ThreeJs"],
+      links: [
+        {
+          type: "Website",
+          href: "https://nimbus.kartikpawar.dev/",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Github",
+          href: "https://github.com/kartikkpawar/nimbus",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],
+      image: "/nimbus.png",
+      video: "",
+    },
+    {
       title: "FlowScrape",
       href: "https://flowscrape.kartikpawar.dev/",
       dates: "",
